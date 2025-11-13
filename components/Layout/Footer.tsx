@@ -13,9 +13,11 @@ const Footer: React.FC = () => {
           {/* About Column */}
           <div>
              <div className="flex items-center space-x-3 mb-6">
-                <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-dsu-blue font-bold shrink-0">
-                  DSU
-                </div>
+                <img 
+                  src="https://images.collegedunia.com/public/college_data/images/logos/1559634550Logo.png" 
+                  alt="DSU Logo" 
+                  className="w-16 h-16 object-contain shrink-0 bg-white rounded-full p-1"
+                />
                 <div className="flex flex-col">
                   <span className="font-bold text-lg leading-tight">DAYANANDA SAGAR <br/> UNIVERSITY</span>
                 </div>

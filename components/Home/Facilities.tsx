@@ -19,7 +19,7 @@ const Facilities: React.FC = () => {
           <div className="bg-blue-50 rounded-3xl overflow-hidden shadow-lg border border-blue-100 flex flex-col group">
             <div className="h-72 overflow-hidden relative">
                <img 
-                 src="https://images.uhttps://www.google.com/url?sa=i&url=https%3A%2F%2Fsresidences.online%2F&psig=AOvVaw224NV5KaZvLm8Xci_sbhHe&ust=1763090949389000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPDo0N6X7pADFQAAAAAdAAAAABAThttps://www.google.com/url?sa=i&url=https%3A%2F%2Fsresidences.online%2F&psig=AOvVaw224NV5KaZvLm8Xci_sbhHe&ust=1763090949389000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPDo0N6X7pADFQAAAAAdAAAAABATnsplash.com/photo-1574362848149-11496d93a7c7?auto=format&fit=crop&q=80&w=800" 
+                 src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&q=80&w=800" 
                  alt="S Residences - DSU Hostel" 
                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                />
@@ -58,7 +58,7 @@ const Facilities: React.FC = () => {
           <div className="bg-blue-50 rounded-3xl overflow-hidden shadow-lg border border-blue-100 flex flex-col group">
             <div className="h-72 overflow-hidden relative">
                <img 
-                 src="https://images.unsplash.com/photo-1570125909232-eb2be79a1c74?auto=format&fit=crop&q=80&w=800" 
+                 src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&q=80&w=800" 
                  alt="DSU Transport" 
                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                />

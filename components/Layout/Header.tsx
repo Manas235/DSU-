@@ -55,9 +55,11 @@ const Header: React.FC = () => {
           <div className="flex justify-between items-center">
             {/* Logo Area */}
             <div className="flex items-center space-x-3 group cursor-pointer">
-              <div className="w-12 h-12 lg:w-14 lg:h-14 bg-dsu-blue rounded-lg flex items-center justify-center text-white font-bold text-xl shadow-lg shrink-0 group-hover:bg-dsu-lightBlue transition-colors">
-                DSU
-              </div>
+              <img 
+                src="https://images.collegedunia.com/public/college_data/images/logos/1559634550Logo.png" 
+                alt="DSU Logo" 
+                className="w-14 h-14 lg:w-20 lg:h-20 object-contain shrink-0 drop-shadow-sm"
+              />
               <div className="flex flex-col">
                 <span className="text-dsu-blue font-extrabold text-lg lg:text-2xl leading-none tracking-tight">
                   DAYANANDA SAGAR <br/> UNIVERSITY

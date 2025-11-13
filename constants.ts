@@ -33,7 +33,7 @@ export const NEWS_ITEMS: NewsItem[] = [
     title: "DSU Ranked Among Top Emerging Universities in India",
     date: "Oct 15, 2023",
     category: "Awards",
-    image: "https://picsum.photos/600/400?random=1",
+    image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=600&auto=format&fit=crop",
     excerpt: "Dayananda Sagar University continues to set benchmarks in academic excellence and research innovation."
   },
   {
@@ -41,7 +41,7 @@ export const NEWS_ITEMS: NewsItem[] = [
     title: "International Conference on AI & Robotics Held at Main Campus",
     date: "Oct 10, 2023",
     category: "Events",
-    image: "https://picsum.photos/600/400?random=2",
+    image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=600&auto=format&fit=crop",
     excerpt: "Experts from around the globe gathered to discuss the future of automation and machine learning."
   },
   {
@@ -49,7 +49,7 @@ export const NEWS_ITEMS: NewsItem[] = [
     title: "Admissions Open for 2026-27 Academic Year",
     date: "Sep 28, 2023",
     category: "Admissions",
-    image: "https://picsum.photos/600/400?random=3",
+    image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600&auto=format&fit=crop",
     excerpt: "Prospective students can now apply for Undergraduate and Postgraduate programs across all disciplines."
   },
   {
@@ -57,7 +57,7 @@ export const NEWS_ITEMS: NewsItem[] = [
     title: "Student Innovation Wins National Hackathon",
     date: "Sep 20, 2023",
     category: "Achievements",
-    image: "https://picsum.photos/600/400?random=4",
+    image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=600&auto=format&fit=crop",
     excerpt: "A team of final year CSE students secured the first prize with their innovative healthcare solution."
   }
 ];
@@ -83,18 +83,18 @@ export const FEATURES = [
     title: "Research Excellence",
     description: "Cutting-edge labs and funding for innovative projects across biotechnology, engineering, and pharmacy.",
     icon: Lightbulb,
-    image: "https://picsum.photos/600/400?random=10"
+    image: "https://images.unsplash.com/photo-1532094349884-543bc11b234d?q=80&w=600&auto=format&fit=crop"
   },
   {
     title: "Global Collaborations",
     description: "Partnerships with 50+ international universities providing exchange programs and joint research opportunities.",
     icon: Globe,
-    image: "https://picsum.photos/600/400?random=11"
+    image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=600&auto=format&fit=crop"
   },
   {
     title: "Vibrant Campus Life",
     description: "A holistic environment with sports complexes, cultural hubs, and student clubs that foster personal growth.",
     icon: Users,
-    image: "https://picsum.photos/600/400?random=12"
+    image: "https://images.unsplash.com/photo-1523580494863-6f3031224c94?q=80&w=600&auto=format&fit=crop"
   },
 ];

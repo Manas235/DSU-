@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://picsum.photos/1920/1080?random=99" 
+          src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=1920&auto=format&fit=crop" 
           alt="DSU Campus" 
           className="w-full h-full object-cover"
         />
@@ -23,10 +23,10 @@ const Hero: React.FC = () => {
             ADMISSIONS OPEN 2026
           </div>
           <h1 className="text-4xl lg:text-6xl font-extrabold leading-tight mb-6">
-            Empowering Futures Through <span className="text-dsu-gold">Innovation</span>.
+            Dayananda Sagar <span className="text-dsu-gold">University</span>
           </h1>
           <p className="text-lg lg:text-xl text-gray-200 mb-8 leading-relaxed font-light">
-            Join a legacy of academic excellence at Dayananda Sagar University. Discover world-class infrastructure, expert faculty, and boundless opportunities.
+            Join a legacy of academic excellence. Discover world-class infrastructure, expert faculty, and boundless opportunities empowering futures through innovation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button variant="primary" size="lg" className="group">
