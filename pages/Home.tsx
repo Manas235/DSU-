@@ -6,17 +6,23 @@ import Stats from '../components/Home/Stats';
 import NewsEvents from '../components/Home/NewsEvents';
 import Accreditations from '../components/Home/Accreditations';
 import Facilities from '../components/Home/Facilities';
+import { DetailsPageData } from '../types';
 
-const Home: React.FC = () => {
+interface HomeProps {
+  onApplyNow: () => void;
+  onLearnMore: (data: DetailsPageData) => void;
+}
+
+const Home: React.FC<HomeProps> = ({ onApplyNow, onLearnMore }) => {
   return (
     <main className="flex-grow">
-      <Hero />
+      <Hero onApplyNow={onApplyNow} />
       <Accreditations />
-      <AdmissionsInfo />
-      <Features />
-      <Facilities />
+      <AdmissionsInfo onLearnMore={onLearnMore} />
+      <Features onLearnMore={onLearnMore} />
+      <Facilities onLearnMore={onLearnMore} />
       <Stats />
-      <NewsEvents />
+      <NewsEvents onLearnMore={onLearnMore} />
     </main>
   );
 };

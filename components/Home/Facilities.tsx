@@ -1,10 +1,34 @@
 import React from 'react';
 import { Bus, BedDouble, Wifi, Utensils, ShieldCheck, MapPin, Clock } from 'lucide-react';
 import Button from '../UI/Button';
+import { DetailsPageData } from '../../types';
 
-const Facilities: React.FC = () => {
+interface FacilitiesProps {
+  onLearnMore: (data: DetailsPageData) => void;
+}
+
+const Facilities: React.FC<FacilitiesProps> = ({ onLearnMore }) => {
+
+  const handleHostelDetails = () => {
+    onLearnMore({
+      title: "S Residences - Student Housing",
+      category: "Campus Life",
+      image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&q=80&w=1920",
+      content: "Experience a home away from home at S Residences. Our state-of-the-art hostels are designed to provide a secure and conducive environment for academic and personal growth.\n\nFacilities include:\n- Spacious, fully furnished rooms with modern interiors.\n- High-speed internet connectivity (Wi-Fi) throughout the building.\n- Nutritious and hygienic dining options catering to diverse palates (North/South Indian, Veg/Non-Veg).\n- 24/7 Security with CCTV surveillance and biometric access.\n- Recreation zones, gymnasiums, and study halls.\n\nAccommodation is available on a first-come, first-serve basis. We recommend applying early to secure your spot."
+    });
+  };
+
+  const handleTransportDetails = () => {
+    onLearnMore({
+      title: "University Transport Services",
+      category: "Campus Life",
+      image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&q=80&w=1920",
+      content: "Dayananda Sagar University ensures seamless connectivity for students and staff with a fleet of over 50 luxury buses.\n\nKey Features:\n- Extensive coverage of Bengaluru city, connecting major residential hubs to the Harohalli campus.\n- GPS-enabled buses for real-time tracking and safety.\n- Trained and experienced drivers ensuring a safe commute.\n- Flexible scheduling aligned with academic timings.\n\nBus passes can be renewed semester-wise. Route maps and pickup points are updated annually to accommodate student needs."
+    });
+  };
+
   return (
-    <section className="py-16 bg-white">
+    <section id="facilities" className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-dsu-blue mb-4">Campus Facilities</h2>
@@ -50,7 +74,7 @@ const Facilities: React.FC = () => {
                   <BedDouble size={18} className="text-dsu-gold mr-2 shrink-0" /> Modern Furnished Rooms
                 </div>
               </div>
-              <Button variant="outline" className="mt-auto self-start hover:bg-dsu-blue hover:text-white hover:border-dsu-blue">View Hostel Fees & Rules</Button>
+              <Button onClick={handleHostelDetails} variant="outline" className="mt-auto self-start hover:bg-dsu-blue hover:text-white hover:border-dsu-blue">View Hostel Fees & Rules</Button>
             </div>
           </div>
 
@@ -89,7 +113,7 @@ const Facilities: React.FC = () => {
                    <Clock size={18} className="text-dsu-gold mr-2 shrink-0" /> Timely Schedule
                  </div>
               </div>
-              <Button variant="outline" className="mt-auto self-start hover:bg-dsu-blue hover:text-white hover:border-dsu-blue">Download Bus Routes</Button>
+              <Button onClick={handleTransportDetails} variant="outline" className="mt-auto self-start hover:bg-dsu-blue hover:text-white hover:border-dsu-blue">Download Bus Routes</Button>
             </div>
           </div>
 

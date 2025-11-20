@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
   const schools = ["School of Engineering", "School of Commerce", "School of Basic & Applied Sciences", "School of Health Sciences", "School of Arts & Humanities", "School of Law"];
 
   return (
-    <footer className="bg-dsu-blue text-white pt-16 pb-8">
+    <footer id="contact" className="bg-dsu-blue text-white pt-16 pb-8">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           
